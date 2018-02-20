@@ -43,6 +43,7 @@
     "slate": "^0.32.4",
     "slate-hyperscript": "^0.5.0",
     "slate-react": "^0.11.4",
+    "slate-simulator": "^0.4.21",
     "watchify": "^3.7.0"
   },
   "peerDependencies": {
