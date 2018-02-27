@@ -1,6 +1,6 @@
 {
   "name": "slate-better-soft-break",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Enable soft-break and avoid soft-break at non-soft-break blocks",
   "main": "dist/index.js",
   "repository": "git@github.com:zhujinxuan/slate-poor-mentions.git",
@@ -8,7 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "is-hotkey": "^0.1.1",
-    "slate": "^0.32.4"
+    "slate": ">0.32.4"
   },
   "devDependencies": {
     "assert": "^1.4.1",
