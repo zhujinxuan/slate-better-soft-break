@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import assert from 'assert';
 import Simulator from 'slate-simulator';
-import createSoftBreakPlugin from '../../lib/';
+import createSoftBreakPlugin from '../../src/';
 
 const ignoreWhen = (event, value) => {
     const { startOffset, startText, startBlock } = value;

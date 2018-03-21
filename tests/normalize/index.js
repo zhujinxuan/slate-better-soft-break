@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import assert from 'assert';
 import { Schema } from 'slate';
-import createSoftBreakPlugin from '../../lib/';
+import createSoftBreakPlugin from '../../src/';
 
 const plugin = createSoftBreakPlugin({
     softBreakIn: ['code', 'cell']
