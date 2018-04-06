@@ -3212,10 +3212,6 @@ ignore@^3.3.3:
   version "3.3.7"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-3.3.7.tgz#612289bfb3c220e186a58118618d5be8c1bab021"
 
-immutable@^3.8.2:
-  version "3.8.2"
-  resolved "https://registry.yarnpkg.com/immutable/-/immutable-3.8.2.tgz#c2439951455bb39913daf281376f1530e104adf3"
-
 imurmurhash@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/imurmurhash/-/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
@@ -5648,25 +5644,25 @@ slate-dev-logger@^0.1.39:
   version "0.1.39"
   resolved "https://registry.yarnpkg.com/slate-dev-logger/-/slate-dev-logger-0.1.39.tgz#744a69b85034244713e6de51483af5713c345af4"
 
-slate-hyperscript@^0.5.6:
-  version "0.5.6"
-  resolved "https://registry.yarnpkg.com/slate-hyperscript/-/slate-hyperscript-0.5.6.tgz#a721f2ea297d775788b07015b7c735b5701cfb1b"
+slate-hyperscript@^0.5.10:
+  version "0.5.10"
+  resolved "https://registry.yarnpkg.com/slate-hyperscript/-/slate-hyperscript-0.5.10.tgz#1b06086a9b51d4c9bb47258f6a8c7610a2f53d31"
   dependencies:
     is-empty "^1.0.0"
     is-plain-object "^2.0.4"
     slate-dev-logger "^0.1.39"
 
-slate-schema-violations@^0.1.4:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/slate-schema-violations/-/slate-schema-violations-0.1.4.tgz#f87ad4091f72c66edf32f418a33d80e5e87ad5e8"
+slate-schema-violations@^0.1.8:
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/slate-schema-violations/-/slate-schema-violations-0.1.8.tgz#b6bfbcc4defaa4971a96bf2d324c5b67fb4a4e20"
 
-slate-simulator@^0.4.23:
-  version "0.4.23"
-  resolved "https://registry.yarnpkg.com/slate-simulator/-/slate-simulator-0.4.23.tgz#5ea7e294e1f223cfb118a887bf0c387d70268782"
+slate-simulator@^0.4.27:
+  version "0.4.27"
+  resolved "https://registry.yarnpkg.com/slate-simulator/-/slate-simulator-0.4.27.tgz#8b86806bed877969f2da66bb2bcaf9a5d1c7cd37"
 
-"slate@>0.32.4 <0.34.0":
-  version "0.33.0"
-  resolved "https://registry.yarnpkg.com/slate/-/slate-0.33.0.tgz#6a4e084aa3a55dc5b09bce1b7037f284396b9160"
+slate@^0.33.4:
+  version "0.33.4"
+  resolved "https://registry.yarnpkg.com/slate/-/slate-0.33.4.tgz#8f39000a7a0fb1ec04b211c3e264e45677dfd9d8"
   dependencies:
     debug "^2.3.2"
     direction "^0.1.5"
@@ -5675,7 +5671,7 @@ slate-simulator@^0.4.23:
     is-plain-object "^2.0.4"
     lodash "^4.17.4"
     slate-dev-logger "^0.1.39"
-    slate-schema-violations "^0.1.4"
+    slate-schema-violations "^0.1.8"
     type-of "^2.0.1"
 
 slice-ansi@1.0.0:
