@@ -1,15 +1,15 @@
 {
   "name": "slate-better-soft-break",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Enable soft-break and avoid soft-break at non-soft-break blocks",
   "main": "lib/slate-better-soft-break.js",
   "module": "lib/slate-better-soft-break.es.js",
   "repository": "git@github.com:zhujinxuan/slate-poor-mentions.git",
   "author": "zhujinxuan <zhujinxuan@gmail.com>",
   "license": "MIT",
-  "dependencies": {
+  "peerDependencies": {
     "immutable": "^3.8.2",
-    "slate": ">0.32.4 <0.34.0"
+    "slate": "^0.32.4 || ^0.34.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -59,8 +59,9 @@
     "rollup-plugin-replace": "^2.0.0",
     "rollup-plugin-sourcemaps": "^0.4.2",
     "rollup-plugin-uglify": "^3.0.0",
-    "slate-hyperscript": "^0.5.6",
-    "slate-simulator": "^0.4.23",
+    "slate": "^0.33.4",
+    "slate-hyperscript": "^0.5.10",
+    "slate-simulator": "^0.4.27",
     "source-map-loader": "^0.2.3",
     "style-loader": "^0.20.3",
     "uglifyjs-webpack-plugin": "^1.2.4",
@@ -70,6 +71,7 @@
     "build:rollup": "rollup --config ./support/rollup/config.js",
     "build:flow": "flow-copy-source -v ./src/ ./lib/",
     "build": "yarn build:rollup && yarn build:flow",
+    "prepublish": "yarn build",
     "lint": "eslint ./",
     "start": "webpack-dev-server --config ./support/webpack/config.js",
     "build-example": "cross-env NODE_ENV=production rollup --config ./support/rollup/config.js && cross-env NODE_ENV=production webpack --config support/webpack/config.js",
