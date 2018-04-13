@@ -9,7 +9,7 @@
   "license": "MIT",
   "peerDependencies": {
     "immutable": "^3.8.2",
-    "slate": "^0.32.4 || ^0.34.0"
+    "slate": "^0.32.4 || ^0.33.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
